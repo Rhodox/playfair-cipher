@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script type="text/javascript" src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <h1 class="main-heading">The Playfair Cipher</h1>
+    </div>
+
+    <div class="cipher-grid-container">
+        <div class="cipher-grid">
+            <!-- Filled in on run -->
+        </div>
+    </div>
+
+    <div class="input-container">
+        <p>Choose the letter to be switched out...</p>
+
+        <div class="char-button-container">
+            <button class="char-button" id="switch-from">Z</button>
+            <button class="char-button" id="switch-to">X</button>
+        </div>
+
+        <p>...and enter a keyword</p>
+
+        <div>
+            <input class="input-field" id="cipher-input" type="text" autocomplete="off" placeholder="Keyword">
+        </div>
+        <br>
+        <div>
+            <textarea class="input-field message-field" id="message-input" type="text" autocomplete="off" placeholder="Message"></textarea>
+            <textarea class="input-field message-field" id="message-output" type="text" autocomplete="off" placeholder="Message"></textarea>
+        </div>
+    </div>
+</body>
+</html>
